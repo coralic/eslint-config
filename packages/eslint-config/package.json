@@ -1,6 +1,6 @@
 {
   "name": "@coralic/eslint-config",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "ESLint configuration for typescript projects",
   "keywords": [
     "typescript",
@@ -22,7 +22,7 @@
   },
   "scripts": {},
   "dependencies": {
-    "@coralic/eslint-config-base": "^0.0.0"
+    "@coralic/eslint-config-base": "^1.0.0"
   },
   "devDependencies": {
     "@typescript-eslint/eslint-plugin": "^4.16.1",
