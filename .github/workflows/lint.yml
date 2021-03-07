@@ -1,0 +1,23 @@
+name: Linting of packages
+
+on:
+  push:
+    branches:
+      - master
+      - develop
+      - feature/*
+      - dependabot/*
+  pull_request:
+    types: [assigned, opened, synchronize, reopened, labeled]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v1
+      - uses: actions/setup-node@v1
+        with:
+          node-version: 12
+      - run: yarn install
+      - run: yarn bootstrap
+      - run: yarn lint
