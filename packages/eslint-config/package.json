@@ -9,8 +9,8 @@
     "preset",
     "rules"
   ],
-  "author": "Florentin Walter<fw@coralic.com>",
-  "homepage": "http://coralic.com",
+  "author": "Florentin Walter<florentin@coralic.de>",
+  "homepage": "https://coralic.de",
   "license": "MIT",
   "main": "lib/index.js",
   "files": [
