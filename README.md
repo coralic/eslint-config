@@ -4,4 +4,4 @@
 
 This package provides ESLint and Prettier settings we use across developemnt projects at coralic.
 
-**Disclaimer:** This repo mostly resembles Airbnb's `eslint-config-airbnb` with some custom changes to fit our style.
+**Disclaimer:** This repo extendes Fintory's `eslint-config` and mostly resembles Airbnb's `eslint-config-airbnb` with some custom changes to fit our style.

@@ -8,8 +8,10 @@
     "preset",
     "rules"
   ],
-  "author": "Florentin Walter <fw@coralic.com>",
-  "homepage": "https://coralic.com",
+  "contributors": [
+    { "name" : "Nick Schmidt", "email" : "nick@kreativgebiet.com" },
+    { "name" : "Florentin Walter", "email" : "florentin@coralic.de" }
+  ],
   "license": "MIT",
   "main": "lib/index.js",
   "files": [
