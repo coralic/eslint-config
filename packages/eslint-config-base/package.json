@@ -1,6 +1,6 @@
 {
   "name": "@coralic/eslint-config-base",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "ESLint configuration for non-typescript projects",
   "keywords": [
     "eslint",
@@ -9,8 +9,14 @@
     "rules"
   ],
   "contributors": [
-    { "name" : "Nick Schmidt", "email" : "nick@kreativgebiet.com" },
-    { "name" : "Florentin Walter", "email" : "florentin@coralic.de" }
+    {
+      "name": "Nick Schmidt",
+      "email": "nick@kreativgebiet.com"
+    },
+    {
+      "name": "Florentin Walter",
+      "email": "florentin@coralic.de"
+    }
   ],
   "license": "MIT",
   "main": "lib/index.js",
